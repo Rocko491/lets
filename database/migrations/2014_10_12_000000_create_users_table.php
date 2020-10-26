@@ -27,7 +27,7 @@ class CreateUsersTable extends Migration
             $table->string('district');
             $table->string('country');
             $table->string('address');
-            $table->string('image');
+            $table->string('image')->nullable();
             $table->string('phone');
             $table->rememberToken();
             $table->timestamps();

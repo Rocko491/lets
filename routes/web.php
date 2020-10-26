@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\Admin\AdminLoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,3 +20,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/admin', [AdminLoginController::class, 'index']);
+Route::post('/admin/login', [AdminLoginController::class, 'admin_login'])->name('admin_login');
+Route::get('/admin/dashboard', [AdminLoginController::class, 'dashboard']);
+Route::get('/admin/logout', [AdminLoginController::class, 'logout'])->name('admin_logout');
+

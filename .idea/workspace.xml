@@ -1,72 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d35172a6-a31d-43d7-8830-9081ab58e6d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/dam.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/debt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/faq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/file.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/film.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/grid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/home.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/idea.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/info.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/ipad.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/key.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/like.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/mms.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/ok.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/sms.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/up.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/images/icons/vip.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-filestyle/js/bootstrap-filestyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-filestyle/js/bootstrap-filestyle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-inputmask/bootstrap-inputmask.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-maxlength/bootstrap-maxlength.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-maxlength/src/bootstrap-maxlength.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/css/bootstrap-select.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/bootstrap-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/bootstrap-select.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/bootstrap-select.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/i18n/defaults-cro_CRO.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/i18n/defaults-ko_KR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/i18n/defaults-lt_LT.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/i18n/defaults-nb_NO.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/i18n/defaults-nl_NL.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/i18n/defaults-pl_PL.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/i18n/defaults-pt_BR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/i18n/defaults-pt_PT.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/i18n/defaults-ro_RO.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/i18n/defaults-ru_RU.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/i18n/defaults-sk_SK.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/i18n/defaults-sl_SI.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/i18n/defaults-sv_SE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/i18n/defaults-tr_TR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/i18n/defaults-ua_UA.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/i18n/defaults-zh_CN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-select/js/i18n/defaults-zh_TW.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-sweetalert/sweet-alert.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-sweetalert/sweet-alert.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-sweetalert/thumbs-up.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-tagsinput/css/bootstrap-tagsinput.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-tagsinput/js/bootstrap-tagsinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-touchspin/css/jquery.bootstrap-touchspin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/bootstrap-touchspin/js/jquery.bootstrap-touchspin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/jquery-mousewheel/jquery.mousewheel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/jquery-quicksearch/jquery.quicksearch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/jquery-sparkline/jquery.sparkline.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/jquery-validation/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/responsive-table/css/rwd-table.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/responsive-table/js/rwd-table.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="d35172a6-a31d-43d7-8830-9081ab58e6d6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -219,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603736180663</updated>
-      <workItem from="1603736182262" duration="11787000" />
+      <workItem from="1603736182262" duration="12153000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1603736277660</created>
@@ -228,7 +163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603736277660</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- Done admin panel login and logout">
+      <created>1603748161353</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603748161353</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- Added files for admin panel">
+      <created>1603748217858</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603748217858</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,13 +187,15 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="- Done admin panel login and logout" />
+    <MESSAGE value="- Added files for admin panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added files for admin panel" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1603736276934">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1603748215308">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603736276934" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603748215308" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603736566598">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -269,10 +220,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1603738978455" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603748330701">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603748330701" />
     <state x="372" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603742453562">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="372" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1603742453562" />
+    <state x="637" y="146" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1603748192238">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="637" y="146" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824@0.0.1536.824" timestamp="1603748192238" />
     <state x="479" y="116" width="578" height="592" key="find.popup" timestamp="1603744552529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

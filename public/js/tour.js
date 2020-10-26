@@ -139,7 +139,7 @@ $(document).ready(function () {
       hopscotch.startTour(tour, 0);
     }
   });
-  console.log(hopscotch.getState());
+  // console.log(hopscotch.getState());
 
   if (hopscotch.getState() === "hello-friendkit:4") {
     hopscotch.startTour(tour, 4);

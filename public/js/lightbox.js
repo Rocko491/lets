@@ -35,7 +35,7 @@ $(document).ready(function () {
     $('[data-fancybox]').each(function () {
       if ($(this).attr('data-lightbox-type') == 'comments') {
         var lightboxContent = $(this).attr('data-fancybox');
-        console.log(lightboxContent);
+        // console.log(lightboxContent);
         $(this).fancybox({
           baseClass: "fancybox-custom-layout",
           keyboard: false,

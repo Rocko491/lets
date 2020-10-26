@@ -20,14 +20,13 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bulma.css') }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/core.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
 </head>
-<body class="is-white">
+<body>
     {{--<div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
@@ -80,9 +79,9 @@
             </div>
         </nav>--}}
 
-        <main class="py-4">
+
             @yield('content')
-        </main>
+
     {{--</div>--}}
 
     <!-- Concatenated js plugins and jQuery -->
@@ -92,7 +91,7 @@
     <script src="{{ asset('data/tipuedrop_content.js') }}"></script>
     <script src="{{ asset('js/global.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
-    <!-- Page and UI related js -->
-    <script src="{{ asset('js/signup.js') }}"></script>
+
+    @yield('js')
 </body>
 </html>

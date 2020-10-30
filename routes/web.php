@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Admin\AdminLoginController;
 /*
 |--------------------------------------------------------------------------
@@ -19,7 +20,8 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::post('/publish_post', [HomeController::class, 'publish_post'])->name('publish_post');
 
 Route::get('/admin', [AdminLoginController::class, 'index']);
 Route::post('/admin/login', [AdminLoginController::class, 'admin_login'])->name('admin_login');

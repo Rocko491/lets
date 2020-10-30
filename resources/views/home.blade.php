@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
     <!-- Pageloader -->
     <div class="pageloader"></div>
     <div class="infraloader is-active"></div>
@@ -786,6 +787,7 @@
             </div>
         </div>
     </nav>
+
     <div class="view-wrapper">
 
         <!-- Container -->
@@ -1245,6 +1247,9 @@
                                 </div>
 
                                 <!-- Tab content -->
+                                <form id="publish_form" method="POST" role="form" action="{{ route('publish_post') }}">
+                                    @csrf
+
                                 <div class="tab-content">
                                     <!-- Compose form -->
                                     <div class="compose">
@@ -1252,7 +1257,7 @@
                                             <img src="https://via.placeholder.com/300x300"
                                                  data-demo-src="assets/img/avatars/jenna.png" alt="">
                                             <div class="control">
-                                                <textarea id="publish" class="textarea" rows="3"
+                                                <textarea id="publish" class="textarea" rows="3" name="post_desc"
                                                           placeholder="Write something about you..."></textarea>
                                             </div>
                                         </div>
@@ -1518,12 +1523,15 @@
                                             <span>View More</span>
                                         </button>
                                         <!-- Publish button -->
-                                        <button id="publish-button" type="button"
+                                        <button id="publish-button" type="submit"
                                                 class="button is-solid accent-button is-fullwidth is-disabled">
                                             Publish
                                         </button>
                                     </div>
                                 </div>
+
+                                </form>
+
                             </div>
                         </div>
                         <!-- Post 1 -->

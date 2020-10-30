@@ -1,19 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d35172a6-a31d-43d7-8830-9081ab58e6d6" name="Default Changelist" comment="" />
+    <list default="true" id="d35172a6-a31d-43d7-8830-9081ab58e6d6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -142,6 +166,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\lets\resources\views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\wamp64\www\lets\public\admin" />
     </key>
@@ -155,6 +182,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603736180663</updated>
       <workItem from="1603736182262" duration="12153000" />
+      <workItem from="1603906277898" duration="1587000" />
+      <workItem from="1604076149270" duration="5084000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1603736277660</created>
@@ -183,6 +212,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
@@ -200,42 +241,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603736566598" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603736367314">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603748544844">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603736367314" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603736367314">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603748544844" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603748544844">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603736367314" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603736367314">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603748544844" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603748544843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603736367314" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603736367314">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603748544843" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603748544844">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603736367314" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603748544844" />
     <state x="604" y="336" key="NewPhpFileDialog" timestamp="1603738978455">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1603738978455" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603748330701">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603906405563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603748330701" />
-    <state x="372" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603742453562">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603906405563" />
+    <state x="372" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604078820169">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1603742453562" />
+    <state x="372" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1604078820169" />
     <state x="637" y="146" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1603748192238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="637" y="146" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824@0.0.1536.824" timestamp="1603748192238" />
-    <state x="479" y="116" width="578" height="592" key="find.popup" timestamp="1603744552529">
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604076237469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="479" y="116" width="578" height="592" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1603744552529" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1604076237469" />
+    <state x="479" y="116" width="578" height="592" key="find.popup" timestamp="1604080169776">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="479" y="116" width="578" height="592" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1604080169776" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603744932514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

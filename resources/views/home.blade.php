@@ -1086,47 +1086,48 @@
                     <!-- Left side column -->
                     <div class="column is-3 is-hidden-mobile">
                         <!-- Weather widget -->
-                        <div class="card-flex friend-card">
-                            <div class="star-friend is-active">
-                                <!-- <i data-feather="star"></i> -->
-                            </div>
-                            <div class="img-container">
-                                <img class="avatar" src="https://via.placeholder.com/300x300"
-                                     data-demo-src="assets/img/avatars/dan.jpg"
-                                     alt="">
-                                <img class="country" src="{{asset('img/icons/flags/united-states-of-america.svg')}}"
-                                     alt="">
-                            </div>
-                            <div class="friend-info">
-                                <h3>Dan Walker</h3>
-                                <p>Most Popular</p>
-                            </div>
-                            <div class="friend-stats">
-                                <div class="stat-block">
-                                    <label>Age</label>
-                                    <div class="stat-number">
-                                        19
-                                    </div>
-                                </div>
-                                <div class="stat-block">
-                                    <label>Followers</label>
-                                    <div class="stat-number">
-                                        293
-                                    </div>
-                                </div>
-                                <div class="stat-block">
-                                    <label>Likes</label>
-                                    <div class="stat-number">
-                                        899
-                                    </div>
-                                </div>
-                            </div>
-                            <p style="text-align: center; margin-top: 1rem"><a href="#"
-                                                                               class="button is-rounded is-solid accent-button">Follow</a>
-                            </p>
-                        </div>
 
-                        <div class="card-flex friend-card">
+                        @if(count($result['follow_list'])>0)
+                            @foreach ($result['follow_list'] as $key=>$follow)
+                                <div class="card-flex friend-card">
+                                    <div class="img-container">
+                                        <img class="avatar" src="https://via.placeholder.com/300x300"
+                                             data-demo-src="assets/img/avatars/dan.jpg"
+                                             alt="">
+                                        {{--<img class="country" src="{{asset('img/icons/flags/united-states-of-america.svg')}}"
+                                             alt="">--}}
+                                    </div>
+                                    <div class="friend-info">
+                                        <h3>{{ $follow->first_name." ".$follow->last_name }}</h3>
+                                    </div>
+                                    {{--<div class="friend-stats">
+                                        <div class="stat-block">
+                                            <label>Age</label>
+                                            <div class="stat-number">
+                                                19
+                                            </div>
+                                        </div>
+                                        <div class="stat-block">
+                                            <label>Followers</label>
+                                            <div class="stat-number">
+                                                293
+                                            </div>
+                                        </div>
+                                        <div class="stat-block">
+                                            <label>Likes</label>
+                                            <div class="stat-number">
+                                                899
+                                            </div>
+                                        </div>
+                                    </div>--}}
+                                    <p style="text-align: center; margin-top: 1rem">
+                                        <a href="#" class="button is-rounded is-solid accent-button">Follow</a>
+                                    </p>
+                                </div>
+                            @endforeach
+                        @endif
+
+                        {{--<div class="card-flex friend-card">
                             <div class="star-friend is-active">
                                 <!-- <i data-feather="star"></i> -->
                             </div>
@@ -1204,7 +1205,7 @@
                             <p style="text-align: center; margin-top: 1rem"><a href="#"
                                                                                class="button is-rounded is-solid accent-button">Follow</a>
                             </p>
-                        </div>
+                        </div>--}}
 
                     </div>
                     <!-- /Left side column -->

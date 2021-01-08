@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Posts;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Session;
 
 class HomeController extends Controller
 {
@@ -24,7 +26,17 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $result = array();
+        $user = auth()->user();
+        session(['user_id' => $user['id']]);
+        session(['email' => $user['email']]);
+
+        $follow_list = DB::table('users')
+            ->where('id', '<>', $user['id'])
+            ->get();
+
+        $result['follow_list'] = $follow_list;
+        return view('home')->with('result', $result);
     }
 
     public function publish_post(Request $data)
